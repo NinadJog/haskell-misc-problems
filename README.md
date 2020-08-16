@@ -14,7 +14,11 @@ Output: ([], [2, 4, 6])
 ```
 ## Solutions
 
-The simplest solution is just a single line of code using the *filter* function, as shown in Solution #1.
+The simplest solution is just a single line of code using the *filter* function, as shown below.
+```
+splitOddEven :: [Int] -> ([Int], [Int])
+splitOddEven xs = (filter odd xs, filter even xs)
+```
 
 I have also provided several other solutions using list comprehensions, list monads, structural recursion, and state monads. These solutions are by no means neccessary for such a simple problem; in fact it's overkill. It's like calling a fire engine to snuff out a cigarette butt.
 
@@ -31,6 +35,8 @@ But the other solutions might come in handy if you have been asked to solve the 
 7. State monad, passing both odd & even lists as part of the state
 8. State monad, passing one list as the state and the other as the result
 9. Return type of function is Data.Map instead of tuple
+
+All these solutions appear in the file [SplitOddEven.hs](SplitOddEven.hs)
 
 ## Other Solutions (TBD)
 
