@@ -16,7 +16,9 @@ Output: ([], [2, 4, 6])
 
 The simplest solution is just a single line of code using the *filter* function, as shown in Solution #1.
 
-I have also provided several other solutions using list comprehensions, list monads, structural recursion, and state monads. These solutions are by no means neccessary for such a simple problem but might come in handy if you are required to solve the problem without using library functions or list comprehensions but with structural recursion and/or monads, as is often the case for newcomers to Haskell, including me.
+I have also provided several other solutions using list comprehensions, list monads, structural recursion, and state monads. These solutions are by no means neccessary for such a simple problem; in fact it's overkill. It's like calling a fire engine to snuff out a cigarette butt.
+
+But the other solutions might come in handy if you have been asked to solve the problem without using library functions or list comprehensions and if you've just started getting acquainted with structural recursion and monads, as is often the case for newcomers to Haskell, including me.
 
 ## Solution List
 
