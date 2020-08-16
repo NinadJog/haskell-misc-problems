@@ -1,4 +1,4 @@
-# haskell-split-odd-even
+# Split Numbers into Odd and Even Lists - Haskell
 
 Given a list of integers, split it into two lists: one containing odd numbers and the other the evens. Retain the order of the numbers and return both lists in a tuple, with the odd list followed by the even one. Examples:
 
@@ -22,9 +22,9 @@ splitOddEven xs = (filter odd xs, filter even xs)
 
 I have also provided several other solutions using list comprehensions, list monads, structural recursion, and state monads. These solutions are by no means neccessary for such a simple problem; in fact it's overkill. It's like calling a fire engine to snuff out a cigarette butt.
 
-But the other solutions might come in handy if you have been asked to solve the problem without using library functions or list comprehensions and if you've just started getting acquainted with structural recursion and monads, as is often the case for newcomers to Haskell, including me.
+But the other solutions might come in handy if you have been asked to solve the problem without using library functions or list comprehensions and if you're new to structural recursion and monads, as is sometimes the case for Haskell newbies, including me.
 
-## Solution List
+## List of Solutions
 
 1. Filter function
 2. Using list comprehensions
@@ -34,7 +34,7 @@ But the other solutions might come in handy if you have been asked to solve the 
 6. Structural recursion variation -- appending new element to end of list
 7. State monad, passing both odd & even lists as part of the state
 8. State monad, passing one list as the state and the other as the result
-9. Return type of function is Data.Map instead of tuple
+9. Return type of function is *Data.Map* instead of tuple
 
 All these solutions appear in the file [SplitOddEven.hs](SplitOddEven.hs)
 
