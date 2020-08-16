@@ -1,2 +1,2 @@
-# haskell-misc-problems
+# haskell-split-odd-even
 Miscellaneous Short Problems
